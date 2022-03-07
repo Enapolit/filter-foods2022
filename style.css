@@ -41,8 +41,13 @@ select {
 }
 
 #food{
-    display: flex;
-    
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#food > div {
+    flex-basis: calc(50% - 10px#);
+}
 /* Tablet/Desktop overrides */
 
 @media(min-width: 681px) {}
