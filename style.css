@@ -46,7 +46,7 @@ select {
     justify-content: space-between;
 }
 #food > div {
-    flex-basis: calc(50% - 10px#);
+    flex-basis: calc(50% - 10px);
 }
 /* Tablet/Desktop overrides */
 
