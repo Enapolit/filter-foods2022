@@ -40,7 +40,9 @@ select {
     width: 100%;
 }
 
-
+#food{
+    display: flex;
+    
 /* Tablet/Desktop overrides */
 
 @media(min-width: 681px) {}
