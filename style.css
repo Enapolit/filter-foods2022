@@ -40,6 +40,14 @@ select {
     width: 100%;
 }
 
+.item {
+    display: none;
+}
+
+
+.item.active {
+    display: block;
+}
 .filter {
     padding: 10px;
     margin-bottom: 15px;
