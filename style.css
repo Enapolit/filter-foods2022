@@ -62,14 +62,14 @@ select {
     text-align: center;
 }
 #food > div {
-    flex-basis: calc(50% - 10px);
+    flex-basis: 25%;
 }
 
 /* Tablet/Desktop overrides */
 
 @media(min-width: 681px){
     #food > div {
-    flex-basis: calc(33% - 10px);
+    flex-basis: 25%;
 }
 } 
 
