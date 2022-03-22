@@ -66,14 +66,14 @@ select {
     text-align: center;
 }
 #food > div {
-    flex-basis: 25%;
+    flex-basis: 33.333333%;
 }
 
 /* Tablet/Desktop overrides */
 
 @media(min-width: 681px){
     #food > div {
-    flex-basis: 25%;
+    flex-basis: 33.333333%;
 }
 } 
 
