@@ -64,14 +64,14 @@ select {
     text-align: left;
 }
 #food > div {
-    flex: 50%;
+    flex-basis: calc(50% - 10px);
 }
 
 /* Tablet/Desktop overrides */
 
 @media(min-width: 681px){
     #food > div {
-    flex: 50%;
+    flex: calc(50% - 10px);
 }
 } 
 
