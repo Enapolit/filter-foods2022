@@ -54,26 +54,22 @@ select {
 .item.active {
     display: block;
 }
-.filter {
-    padding: 10px;
-    margin-bottom: 15px;
-}
 
 #food{
     display: flex; 
     flex-wrap: wrap;
     justify-content: space-between;
-    text-align: center;
+    text-align: left;
 }
 #food > div {
-    flex-basis: 33.333333%;
+    flex: 33.333333%;
 }
 
 /* Tablet/Desktop overrides */
 
 @media(min-width: 681px){
     #food > div {
-    flex-basis: 33.333333%;
+    flex: 33.333333%;
 }
 } 
 
