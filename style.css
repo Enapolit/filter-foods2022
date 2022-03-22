@@ -27,7 +27,7 @@ body {
 .container {
     max-width: 800px;
     margin: 0 auto;
-    padding: 5px;
+    padding: 10px;
 }
 
 .image1 {
@@ -64,14 +64,14 @@ select {
     text-align: left;
 }
 #food > div {
-    flex: 33.333333%;
+    flex: 50%;
 }
 
 /* Tablet/Desktop overrides */
 
 @media(min-width: 681px){
     #food > div {
-    flex: 33.333333%;
+    flex: 50%;
 }
 } 
 
