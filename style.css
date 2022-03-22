@@ -55,6 +55,14 @@ select {
     display: block;
 }
 
+.item2 {
+    display: none;
+}
+
+.item2.active {
+    display: block;
+}
+
 #food{
     display: flex; 
     flex-wrap: wrap;
