@@ -62,26 +62,16 @@ select {
     flex-wrap: wrap;
     justify-content: space-between;
     text-align: left;
-    margin-right: 10px;
-    margin-bottom: 1px;
-    float:left;
 }
 #food > div {
     flex-basis: calc(33% - 10px);
 }
 
-
-div#food p{
- float: right;
-  width: 30%;
-  text-align: center;
-  font-style: italic;
-  font-size: smaller;
-  text-indent: 0;
-  border: thin silver solid;
-  margin: 0.5em;
-  padding: 0.5em;
+.p {
+    text-align: justify;
+    line-height: 0.7;
 }
+
 
 /* Tablet/Desktop overrides */
 
