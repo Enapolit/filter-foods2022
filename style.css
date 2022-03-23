@@ -70,6 +70,11 @@ select {
     flex-basis: calc(33% - 10px);
 }
 
+
+div#food p{
+font-weight:bold;
+}
+
 /* Tablet/Desktop overrides */
 
 @media(min-width: 681px){
